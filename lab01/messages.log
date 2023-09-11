@@ -1,0 +1,714 @@
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=213M
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=59M
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=261M
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=181M
+2023-09-11 12:59:30.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=206M
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 15,34 GB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 8,98 GB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 753,40 MB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 20,59 GB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 12,02 GB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 234,29 MB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 311,50 MB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 3,41 GB
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2,81 MB, used=2,72 MB, max=48,00 MB, threshold=0,00 B
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=147,50 MB, used=47,99 MB, max=1,27 GB, threshold=?
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=512,00 kB, used=384,00 kB, max=512,00 kB, threshold=?
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=163,50 MB, used=28,84 MB, max=2,56 GB, threshold=0,00 B
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=54,00 MB, used=53,97 MB, max=82,00 MB, threshold=0,00 B
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: amd64; cpus: 12
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 1360@Olga_Barmina
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Moscow
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\d:_program_files_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=D:\Program Files\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\olgab\AppData\Local\Temp\e4j_p1360.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Program Files\Google\Chrome\Application;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\olgab\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\olgab\AppData\Local\Programs\Python\Python311\;D:\texlive\2022\bin\win32;C:\Users\olgab\AppData\Local\Microsoft\WindowsApps;C:\Users\olgab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\olgab\AppData\Local\Pandoc\;D:\Users\olgab\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\olgab\AppData\Local\GitHubDesktop\bin;c:\users\olgab\appdata\local\temp\e4j2a91.tmp_dir1694434938\jre\bin;d:\program files\neo4j community\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/jaccess.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\rt.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunmscapi.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunec.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\classes
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] D:\Program Files\Neo4j Community\bin\neo4j-desktop-2.0.1.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/dnsns.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\resources.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\charsets.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] D:\Program Files\Neo4j Community\.install4j\i4jruntime.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/bin/
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\sunrsasign.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/access-bridge-64.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jsse.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/zipfs.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/dns_sd.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/.install4j/i4jruntime.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunjce_provider.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jce.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/localedata.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jfr.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/bin/neo4j-desktop-2.0.1.jar
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Google\Chrome\Application
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Python310\Scripts
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Python310
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\OpenSSH
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\ProgramData\chocolatey\bin
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Git\cmd
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\OpenSSH
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Python\Python311\Scripts
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Python\Python311
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\texlive\2022\bin\win32
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Microsoft\WindowsApps
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Microsoft VS Code\bin
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Pandoc
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Users\olgab\AppData\Local\Programs\MiKTeX\miktex\bin\x64
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\GitHubDesktop\bin
+2023-09-11 12:59:30.289+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Temp\e4j2a91.tmp_dir1694434938\jre\bin
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Program Files\Neo4j Community\jre\bin
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\olgab\AppData\Local\Temp\e4j_p1360.tmp
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\d:_program_files_neo4j_community_bin_neo4j-community.exe
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = d:\program files\neo4j community\jre\bin
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = RU
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = D:\Program Files\Neo4j Community\bin\
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = D:\Program Files\Neo4j Community\bin
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1251
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\olgab\OneDrive
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Moscow
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1251
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = olgab
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = ru
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = D:\Program Files\Neo4j Community\
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = amd64
+2023-09-11 12:59:30.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft 6to4 Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPPOE):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft IP-HTTPS Platform Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.200.82.5
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:b936:4813:35b5:158%6
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:8c68:8f7:328a:d459%7
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (Personal Area Network):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:2bad:acb7:a58c:39b0%9
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:e35a:10e8:3e0d:1c12%10
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (SSTP):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Teredo Tunneling Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPTP):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IKEv2):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface VirtualBox Host-Only Ethernet Adapter:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (L2TP):
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Virtual WiFi Filter Driver-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:30.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2023-09-11 12:59:30.461+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore
+2023-09-11 12:59:30.690+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:30.690+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.690+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.706+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.769+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:30.769+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.785+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.801+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings] brickCount=0 brickSize=189696b mappedMem=189792256b (storeSize=128b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays] brickCount=0 brickSize=215936b mappedMem=216006656b (storeSize=128b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db] brickCount=0 brickSize=2233434b mappedMem=223346688b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db] brickCount=0 brickSize=2736756b mappedMem=273678336b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db] brickCount=0 brickSize=618646b mappedMem=61865984b (storeSize=0b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2023-09-11 12:59:30.848+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:30.864+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.880+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.895+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.911+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.943+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.958+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:30.990+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.006+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.038+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.085+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.101+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.117+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore hit=0 miss=8 switches=0 ooe=0
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings] brickCount=0 brickSize=189696b mappedMem=189792256b (storeSize=128b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays] brickCount=0 brickSize=215936b mappedMem=216006656b (storeSize=128b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db] brickCount=0 brickSize=2233434b mappedMem=223346688b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db] brickCount=0 brickSize=2736756b mappedMem=273678336b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db] brickCount=0 brickSize=618646b mappedMem=61865984b (storeSize=0b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2023-09-11 12:59:31.148+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2023-09-11 12:59:31.164+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2023-09-11 12:59:31.164+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2023-09-11 12:59:31.164+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2023-09-11 12:59:31.180+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Rebuilding lucene scan store, this may take a while
+2023-09-11 12:59:31.180+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Lucene scan store rebuilt (roughly -1 nodes)
+2023-09-11 12:59:31.180+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2023-09-11 12:59:31.195+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1694437170461, id:-2825126374255106091, store version: 13843131341501958]
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j Desktop (neo4j-desktop), version: 2.0.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-jmx), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-lucene-index), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-matching), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (server-api), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-desktop), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-server), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-2.0), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-algo), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-shell), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-1.9), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-udc), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-commons), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 128849014784 / 22737997824 / 17
+Storage files: (filename : modification date - size)
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2023-09-11T16:59:31+0400 - 11,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2023-09-11T16:59:31+0400 - 40,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2023-09-11T16:59:31+0400 - 4,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2023-09-11T16:59:31+0400 - 60,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2023-09-11T16:59:30+0400 - 0,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2023-09-11T16:59:31+0400 - 39,58 kB
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j.properties: 2023-09-11T16:59:30+0400 - 1,08 kB
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2023-09-11T16:59:31+0400 - 63,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2023-09-11T16:59:31+0400 - 68,00 B
+2023-09-11 12:59:31.211+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2023-09-11T16:59:31+0400 - 128,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2023-09-11T16:59:31+0400 - 128,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2023-09-11T16:59:31+0400 - 64,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2023-09-11T16:59:31+0400 - 4,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2023-09-11T16:59:30+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2023-09-11 12:59:31.227+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2023-09-11 12:59:31.242+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\index\lucene.log
+2023-09-11 12:59:31.242+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2023-09-11 12:59:31.336+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\nioneo_logical.log
+2023-09-11 12:59:31.382+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.398+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.430+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.455+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.479+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.494+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.510+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.541+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.557+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.572+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.588+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.619+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.635+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 12:59:31.656+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore hit=0 miss=16 switches=0 ooe=0
+2023-09-11 12:59:31.672+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2023-09-11 12:59:31.672+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2023-09-11 12:59:31.672+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=213M
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=59M
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=181M
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source=server
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=261M
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=206M
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 15,34 GB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 8,97 GB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 756,42 MB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 20,59 GB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 12,00 GB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 226,58 MB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 311,50 MB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 3,41 GB
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2,81 MB, used=2,72 MB, max=48,00 MB, threshold=0,00 B
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=147,50 MB, used=55,70 MB, max=1,27 GB, threshold=?
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=512,00 kB, used=384,00 kB, max=512,00 kB, threshold=?
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=163,50 MB, used=28,84 MB, max=2,56 GB, threshold=0,00 B
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=54,50 MB, used=54,03 MB, max=82,00 MB, threshold=0,00 B
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: amd64; cpus: 12
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 1360@Olga_Barmina
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Moscow
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\d:_program_files_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=D:\Program Files\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\olgab\AppData\Local\Temp\e4j_p1360.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Program Files\Google\Chrome\Application;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\olgab\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\olgab\AppData\Local\Programs\Python\Python311\;D:\texlive\2022\bin\win32;C:\Users\olgab\AppData\Local\Microsoft\WindowsApps;C:\Users\olgab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\olgab\AppData\Local\Pandoc\;D:\Users\olgab\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\olgab\AppData\Local\GitHubDesktop\bin;c:\users\olgab\appdata\local\temp\e4j2a91.tmp_dir1694434938\jre\bin;d:\program files\neo4j community\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2023-09-11 12:59:31.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/jaccess.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\rt.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunmscapi.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunec.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\classes
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] D:\Program Files\Neo4j Community\bin\neo4j-desktop-2.0.1.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/dnsns.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\resources.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\charsets.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] D:\Program Files\Neo4j Community\.install4j\i4jruntime.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/bin/
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\sunrsasign.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/access-bridge-64.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jsse.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/zipfs.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/dns_sd.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/.install4j/i4jruntime.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/sunjce_provider.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jce.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/D:/Program%20Files/Neo4j%20Community/jre/lib/ext/localedata.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] D:\Program Files\Neo4j Community\jre\lib\jfr.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/D:/Program%20Files/Neo4j%20Community/bin/neo4j-desktop-2.0.1.jar
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2023-09-11 12:59:31.696+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Google\Chrome\Application
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Python310\Scripts
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Python310
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\OpenSSH
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\ProgramData\chocolatey\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Git\cmd
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\OpenSSH
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Python\Python311\Scripts
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Python\Python311
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\texlive\2022\bin\win32
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Microsoft\WindowsApps
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Programs\Microsoft VS Code\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Pandoc
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Users\olgab\AppData\Local\Programs\MiKTeX\miktex\bin\x64
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\GitHubDesktop\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Users\olgab\AppData\Local\Temp\e4j2a91.tmp_dir1694434938\jre\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Program Files\Neo4j Community\jre\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\olgab\AppData\Local\Temp\e4j_p1360.tmp
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\d:_program_files_neo4j_community_bin_neo4j-community.exe
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = d:\program files\neo4j community\jre\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = RU
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = D:\Program Files\Neo4j Community\bin\
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = D:\Program Files\Neo4j Community\bin
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1251
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\olgab\OneDrive
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Moscow
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1251
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = olgab
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = D:\Program Files\Neo4j Community\bin\neo4j-community.exe
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = ru
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = D:\Program Files\Neo4j Community\
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = amd64
+2023-09-11 12:59:31.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft 6to4 Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPPOE):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft IP-HTTPS Platform Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.200.82.5
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:b936:4813:35b5:158%6
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:8c68:8f7:328a:d459%7
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (Personal Area Network):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:2bad:acb7:a58c:39b0%9
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:e35a:10e8:3e0d:1c12%10
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (SSTP):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Teredo Tunneling Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPTP):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IKEv2):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface VirtualBox Host-Only Ethernet Adapter:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (L2TP):
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Virtual WiFi Filter Driver-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2023-09-11 12:59:31.853+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings] brickCount=0 brickSize=189696b mappedMem=189792256b (storeSize=128b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays] brickCount=0 brickSize=215936b mappedMem=216006656b (storeSize=128b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db] brickCount=0 brickSize=2233434b mappedMem=223346688b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db] brickCount=0 brickSize=2736756b mappedMem=273678336b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db] brickCount=0 brickSize=618646b mappedMem=61865984b (storeSize=0b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2023-09-11 12:59:31.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2023-09-11 12:59:31.885+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\nioneo_logical.log.1] version=1, lastTxId=1 (clean)
+2023-09-11 12:59:31.901+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\tm_tx_log.1
+2023-09-11 12:59:31.925+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\index\lucene.log.1] version=1, lastTxId=1 (clean)
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1694437170461, id:-2825126374255106091, store version: 13843131341501958]
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j Desktop (neo4j-desktop), version: 2.0.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-jmx), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-lucene-index), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-matching), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (server-api), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-desktop), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-server), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-2.0), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-graph-algo), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-shell), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-compiler-1.9), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-udc), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Desktop (neo4j-cypher-commons), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 128849014784 / 22737977344 / 17
+Storage files: (filename : modification date - size)
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2023-09-11T16:59:31+0400 - 11,00 B
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2023-09-11 12:59:31.933+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2023-09-11T16:59:31+0400 - 40,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2023-09-11T16:59:31+0400 - 4,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2023-09-11T16:59:31+0400 - 76,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2023-09-11T16:59:31+0400 - 80,74 kB
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j.properties: 2023-09-11T16:59:30+0400 - 1,08 kB
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2023-09-11T16:59:31+0400 - 63,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2023-09-11T16:59:31+0400 - 68,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2023-09-11T16:59:31+0400 - 128,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.949+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2023-09-11T16:59:31+0400 - 128,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2023-09-11T16:59:31+0400 - 38,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2023-09-11T16:59:31+0400 - 64,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2023-09-11T16:59:31+0400 - 9,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2023-09-11T16:59:31+0400 - 4,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2023-09-11T16:59:31+0400 - 16,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments.gen: 2023-09-11T16:59:31+0400 - 20,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments_1: 2023-09-11T16:59:31+0400 - 32,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2023-09-11T16:59:31+0400 - 52,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2023-09-11T16:59:31+0400 - 52,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2023-09-11T16:59:31+0400 - 52,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2023-09-11T16:59:30+0400 - 0,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2023-09-11T16:59:31+0400 - 0,00 B
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2023-09-11 12:59:31.950+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server configuration:
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.db.tuning.properties = C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neo4j.properties
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.database.location = C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted REST API at: /db/data
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted management API at: /db/manage
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted webadmin at: /webadmin
+2023-09-11 12:59:32.293+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted Neo4j Browser at: /browser
+2023-09-11 12:59:32.796+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server started on: http://localhost:7474/
+2023-09-11 12:59:32.796+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2023-09-11 13:00:09.941+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2023-09-11 13:00:09.941+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2023-09-11 13:00:09.941+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2023-09-11 13:00:09.958+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\index\lucene.log
+2023-09-11 13:00:09.962+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2023-09-11 13:00:10.094+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\nioneo_logical.log
+2023-09-11 13:00:10.138+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db.names hit=0 miss=4 switches=0 ooe=0
+2023-09-11 13:00:10.163+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshiptypestore.db hit=0 miss=4 switches=0 ooe=0
+2023-09-11 13:00:10.178+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db.names hit=0 miss=1 switches=0 ooe=0
+2023-09-11 13:00:10.201+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.labeltokenstore.db hit=0 miss=1 switches=0 ooe=0
+2023-09-11 13:00:10.218+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.237+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index.keys hit=0 miss=1 switches=0 ooe=0
+2023-09-11 13:00:10.258+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.index hit=0 miss=1 switches=0 ooe=0
+2023-09-11 13:00:10.277+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.298+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.propertystore.db hit=10 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.315+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.relationshipstore.db hit=6 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.332+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.355+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.nodestore.db hit=10 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.371+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2023-09-11 13:00:10.393+0000 INFO  [o.n.k.i.n.s.StoreFactory]: C:\Users\olgab\OneDrive\Documents\prog_lang_ai\lab01\neostore hit=0 miss=24 switches=0 ooe=0
+2023-09-11 13:00:10.409+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2023-09-11 13:00:10.411+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2023-09-11 13:00:10.411+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---

@@ -2,7 +2,7 @@
   "domain":"BLOCKS",
   "types":"block",
   "predicates":{
-    "on":{"?x":"?y"},
+    "on":["?x","?y"],
     "ontable":["?x"],
     "clear":["?x"],
     "holding":["?x"]
@@ -11,13 +11,13 @@
     "pick-up":{
       "parameters":{"block":["?x"]},
       "precondition":{   
-        "ontable":["?x"],
-        "clear":["?x"]
+        "clear":["?x"],
+	"ontable":["?x"]
       },
       "effect":{
         "holding":["?x"],
-        "ontable":[],
-        "clear":[]
+        "ontable":["?x"],
+        "clear":["?x"]
       }
     },
     "put-down":{
@@ -26,7 +26,7 @@
         "holding":["?x"]
       },
       "effect":{
-        "holding":[],
+        "holding":["?x"],
         "ontable":["?x"],
         "clear":["?x"]
       }
@@ -38,22 +38,21 @@
         "clear":["?y"]
       },
       "effect":{
-        "holding":[],
+        "holding":["?x"],
         "clear":["?x"],
-        "on":{"?x":"?y"}
+        "on":["?x","?y"]
       }
     },
     "unstack":{
       "parameters":{"block":["?x","?y"]},
       "precondition":{   
-        "holding":[],
         "clear":["?x"],
-        "on":{"?x":"?y"}
+        "on":["?x","?y"]
       },
       "effect":{
         "holding":["?x"],
         "clear":["?y"],
-        "on":{}
+        "on":["?x","?y"]
       }
     }
   }

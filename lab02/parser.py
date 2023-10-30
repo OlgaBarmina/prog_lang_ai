@@ -225,10 +225,12 @@ class Parser:
         if not isinstance(self.problem.goal, frozenset):
             goal_state = set((st.name, param[0], param[1]) if isinstance(st.parameters[0], list) else (st.name, param)
                              for st in self.problem.goal for param in st.parameters)
-        print("init state: ", state)
-        print("goal state: ", goal_state)
+        print("Init state:\n", list(state))
+        print("Goal state:\n", list(goal_state))
 
         queue.append(state)
+        plan = dict()
+        plan[state] = None
         """
         create a plan by dict (new_state: cur state), go back to create a list
         """
@@ -236,8 +238,16 @@ class Parser:
             cur_state = queue.pop(0)
 
             if equal(cur_state, goal_state):
-                # print plan
-                return print("solution found")
+                print("Plan:")
+                path = plan[cur_state]
+                full_path = list([goal_state])
+                while path != None:
+                    full_path.append(list(path))
+                    path = plan[path]
+                full_path = list(reversed(full_path))
+                for i in full_path:
+                    print(i)
+                return 0
 
             if cur_state not in visited:
                 visited.append(cur_state)
@@ -246,6 +256,7 @@ class Parser:
                 for act in actions:
                     if act not in visited:
                         queue.append(act)
+                        plan[act] = cur_state
         return print("no solution")
 
 

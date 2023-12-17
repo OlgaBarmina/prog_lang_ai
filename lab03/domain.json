@@ -2,8 +2,9 @@
   "domain":"BLOCKS",
   "types":"block",
   "agents":{
-    "A1":[50], 
-    "A2":[100]},
+    "A1":[0,40], 
+    "A2":[30,60],
+    "A3":[61,100]},
   "predicates":{
     "on":["?x","?y"],
     "ontable":["?x"],
